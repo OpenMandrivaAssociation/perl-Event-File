@@ -45,3 +45,25 @@ rm -rf %{buildroot}
 %{perl_vendorlib}/Event
 %{_mandir}/man3/*
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.1.1-3mdv2010.0
++ Revision: 430421
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 0.1.1-2mdv2008.1
++ Revision: 135841
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Jun 03 2007 Anssi Hannula <anssi@mandriva.org> 0.1.1-2mdv2008.0
++ Revision: 34865
+- annual rebuild
+
+
+* Sun May 28 2006 Anssi Hannula <anssi@mandriva.org> 0.1.1-1mdv2007.0
+- initial Mandriva package
+
